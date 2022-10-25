@@ -19,3 +19,13 @@ logging:
 
 server:
   forward-headers-strategy: framework
+
+keycloak:
+  realm: scorpius
+  auth-server-url: http://keycloak:8080/auth
+  ssl-required: external
+  resource: frontend
+  credentials:
+    secret: F6KERXxKJq6YuNsR9cG3nitskFct5idS
+  use-resource-role-mappings: true
+  bearer-only: true
