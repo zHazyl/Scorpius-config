@@ -21,7 +21,7 @@ server:
   forward-headers-strategy: framework
 
 keycloak:
-  realm: Scorpius
+  realm: scorpius
   auth-server-url: http://localhost:8089/auth/
   ssl-required: external
   resource: frontend
