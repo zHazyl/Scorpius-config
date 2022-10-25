@@ -4,6 +4,7 @@ spring:
       discovery:
         locator:
           enabled: true
+          lowerCaseServiceId: true
 server:
   port: 8080
 eureka:
