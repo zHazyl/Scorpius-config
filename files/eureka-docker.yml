@@ -11,3 +11,8 @@ eureka:
     enable-self-preservation: false
 server:
   port: 8761
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
