@@ -10,9 +10,6 @@ spring:
     loadbalancer:
       ribbon:
         enabled: fasle
-  main:
-    allow-bean-definition-overriding: true
-    allow-circular-references: true
 #  rabbitmq:
 #    host: rabbitmq-service
 #    port: 5672
