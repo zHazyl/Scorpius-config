@@ -6,6 +6,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: fasle
+  main:
+    allow-circular-references: true
 #  rabbitmq:
 #    host: rabbitmq-service
 #    port: 5672
@@ -17,12 +23,21 @@ logging:
       scorpius:
         authservice: debug
 
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+
 server:
   forward-headers-strategy: framework
 
 keycloak:
   realm: scorpius
-  auth-server-url: http://localhost:8089/auth/
+  auth-server-url: http://localhost:8089/auth
   ssl-required: external
   resource: frontend
   credentials:
