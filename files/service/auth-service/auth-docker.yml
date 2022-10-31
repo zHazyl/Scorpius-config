@@ -32,8 +32,8 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
 
-#server:
-#  forward-headers-strategy: framework
+server:
+  forward-headers-strategy: framework
 
 keycloak:
   realm: scorpius
