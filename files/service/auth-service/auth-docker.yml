@@ -6,10 +6,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-  cloud:
-    loadbalancer:
-      ribbon:
-        enabled: fasle
+#  cloud:
+#    loadbalancer:
+#      ribbon:
+#        enabled: fasle
   main:
     allow-bean-definition-overriding: true
 #  rabbitmq:
@@ -32,8 +32,8 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
 
-server:
-  forward-headers-strategy: framework
+#server:
+#  forward-headers-strategy: framework
 
 keycloak:
   realm: scorpius
