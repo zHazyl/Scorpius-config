@@ -44,3 +44,4 @@ keycloak:
     secret: 18XA1OLu6i9Tl1DDrgagVxu6vLVlmFxB
   use-resource-role-mappings: true
   bearer-only: true
+  principal-attribute: preferred_username
