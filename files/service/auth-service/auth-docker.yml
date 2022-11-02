@@ -38,11 +38,11 @@ eureka:
 
 keycloak:
   realm: scorpius
-  auth-server-url: http://keycloak:8089/auth
+  auth-server-url: http://keycloak:8180/auth
   ssl-required: external
   resource: frontend
   credentials:
-    secret: 18XA1OLu6i9Tl1DDrgagVxu6vLVlmFxB
+    secret: 7CmCDWB89W9RLOpUQFr7U8ZKfMgjfLwl
   use-resource-role-mappings: true
   bearer-only: true
 #  principal-attribute: preferred_username
