@@ -27,6 +27,6 @@ keycloak:
   ssl-required: external
   resource: frontend
   credentials:
-    secret: 7CmCDWB89W9RLOpUQFr7U8ZKfMgjfLwl
+    secret: m7DOTQGjJmigOY6s9AeNHUzJ5xLSxNp5
   use-resource-role-mappings: true
   bearer-only: true
