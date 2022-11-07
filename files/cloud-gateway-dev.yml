@@ -1,4 +1,6 @@
-spring:    
+spring:
+  webflux:
+    base-path: /api
   cloud:
     gateway:
       discovery:
@@ -7,8 +9,6 @@ spring:
 server:
   address: 127.0.0.1
   port: 8080
-  servlet:
-    context-path: /api
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
