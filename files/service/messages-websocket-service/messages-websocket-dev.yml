@@ -12,6 +12,14 @@ websocket:
       systemPasscode: '{cipher}d26f57a1f78d64354a73bfe8775acc4e754f0ffc48ad25eceebc821bedae00cfc31b5e82ab6f13003cf7c94f0df42e45'
       relayPort: 61613
       relayHost: 127.0.0.1
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 keycloak:
   realm: scorpius
   auth-server-url: http://keycloak:8180/auth
