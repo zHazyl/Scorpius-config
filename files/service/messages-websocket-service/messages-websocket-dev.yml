@@ -12,3 +12,12 @@ websocket:
       systemPasscode: '{cipher}d26f57a1f78d64354a73bfe8775acc4e754f0ffc48ad25eceebc821bedae00cfc31b5e82ab6f13003cf7c94f0df42e45'
       relayPort: 61613
       relayHost: 127.0.0.1
+keycloak:
+  realm: scorpius
+  auth-server-url: http://keycloak:8180/auth
+  ssl-required: external
+  resource: frontend
+  credentials:
+    secret: m7DOTQGjJmigOY6s9AeNHUzJ5xLSxNp5
+  use-resource-role-mappings: true
+  bearer-only: true
