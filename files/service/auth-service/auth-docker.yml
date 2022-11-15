@@ -38,8 +38,8 @@ eureka:
 
 keycloak:
   realm: scorpius
-  auth-server-url: https://keycloak/auth
-  ssl-required: external
+  auth-server-url: http://keycloak:8180/auth
+  ssl-required: none
   resource: frontend
   credentials:
     secret: m7DOTQGjJmigOY6s9AeNHUzJ5xLSxNp5
