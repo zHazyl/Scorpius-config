@@ -15,10 +15,10 @@ websocket:
 
 keycloak:
   realm: scorpius
-  auth-server-url: http://keycloak/auth
+  auth-server-url: http://keycloak:8180/auth
   ssl-required: external
   resource: frontend
   credentials:
-    secret: m7DOTQGjJmigOY6s9AeNHUzJ5xLSxNp5
+    secret: 6f5UdpZlOH0Q6Y6byNTxPj7uPvGxLchl
   use-resource-role-mappings: true
   bearer-only: true
