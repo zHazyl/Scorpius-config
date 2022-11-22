@@ -5,7 +5,7 @@ spring:
     username: rabbitmq-user
     password: '{cipher}3adfb46bde0f96695af1853733d8774f0012b158e34b64a1254660f509c65e1b666020c71b435e7a78a36d31c2845cbf'
   datasource:
-    url: jdbc:mysql://34.170.110.240/chat_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://34.126.157.172/chat_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
     password: $Tnh210302
   jpa:
