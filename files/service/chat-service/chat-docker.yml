@@ -12,6 +12,9 @@ spring:
     hibernate:
       ddl-auto: validate
   forward-headers-strategy: framework
+  redis:
+    host: 35.219.5.96
+    port: 6379
 logging:
   level:
     pl:
