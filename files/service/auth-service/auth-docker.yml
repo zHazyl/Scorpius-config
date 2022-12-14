@@ -6,6 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+  redis:
+    host: 35.219.5.96
+    port: 6379
 #  cloud:
 #    loadbalancer:
 #      ribbon:
