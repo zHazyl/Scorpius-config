@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://34.128.85.149/auth_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://35.222.137.38/auth_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
     password: $Tnh210302
   jpa:
