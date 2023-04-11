@@ -11,5 +11,5 @@ eureka:
   server:
     enable-self-preservation: false
 server:
-  address: localhost
+  address: 127.0.0.1
   port: 8761
