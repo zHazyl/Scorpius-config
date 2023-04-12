@@ -11,13 +11,13 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     prefer-ip-address: false
-    ip-address: 20.207.203.105
-    hostname: 20.207.203.105
+#    ip-address: 20.207.203.105
+#    hostname: 20.207.203.105
   client:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka
+      defaultZone: http://20.207.203.105:8761/eureka
     register-with-eureka: false
     fetch-registry: true
     enabled: true
