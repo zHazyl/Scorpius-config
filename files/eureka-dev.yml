@@ -2,7 +2,7 @@ eureka:
   datacenter: Poland
   environment: development
   instance:
-    hostname: localhost
+#    hostname: localhost
     prefer-ip-address: true
     ip-address: 20.207.203.105
   client:
