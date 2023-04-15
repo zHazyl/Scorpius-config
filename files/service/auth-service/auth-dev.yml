@@ -21,9 +21,8 @@ logging:
       tnh:
         authservice: debug
 
-#server:
-#  port: 9999
-#  forward-headers-strategy: framework
+server:
+  address: 125.235.232.185
 
 keycloak:
   realm: scorpius
