@@ -21,9 +21,6 @@ logging:
       tnh:
         authservice: debug
 
-server:
-  address: 125.235.232.185
-
 keycloak:
   realm: scorpius
   auth-server-url: http://keycloak:8180/auth
