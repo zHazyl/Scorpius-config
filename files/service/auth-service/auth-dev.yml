@@ -21,9 +21,9 @@ logging:
       tnh:
         authservice: debug
 
-server:
-  port: 9999
-  forward-headers-strategy: framework
+#server:
+#  port: 9999
+#  forward-headers-strategy: framework
 
 keycloak:
   realm: scorpius
