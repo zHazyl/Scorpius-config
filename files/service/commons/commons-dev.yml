@@ -14,3 +14,13 @@ eureka:
       defaultZone: http://20.207.203.105:8761/eureka
     healthcheck:
       enabled: true
+
+keycloak:
+  realm: scorpius
+  auth-server-url: http://20.207.203.105:8180/auth
+  ssl-required: none
+  resource: frontend
+  credentials:
+    secret: EarKnJAhU1RdbZLrfICK0n2ZBBK5aOd7
+  use-resource-role-mappings: true
+  bearer-only: true
