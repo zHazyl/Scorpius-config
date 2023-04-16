@@ -8,9 +8,9 @@ spring:
     url: jdbc:sqlserver://hn.database.windows.net:1433;database=frienddb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: 'hazy@hn'
     password: '@h0917815161'
-  jpa:
-    hibernate:
-      ddl-auto: validate
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
 #server:
 #  port: 9997
   forward-headers-strategy: framework
