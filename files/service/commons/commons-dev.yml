@@ -5,7 +5,7 @@ eureka:
   instance:
     instance-id: ${spring.application.name}-${random.int}
 #    hostname: localhost
-    ip-address: 192.168.0.105
+#    ip-address: 127.0.0.1
     prefer-ip-address: false
   client:
     register-with-eureka: true
