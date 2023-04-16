@@ -5,14 +5,14 @@ spring:
     username: rabbitmq-user
     password: '{cipher}3adfb46bde0f96695af1853733d8774f0012b158e34b64a1254660f509c65e1b666020c71b435e7a78a36d31c2845cbf'
   datasource:
-    url: jdbc:mysql://35.222.137.38/chat_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
-    username: root
-    password: $Tnh210302
+    url: jdbc:sqlserver://hn.database.windows.net:1433;database=frienddb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: 'hazy@hn'
+    password: '@h0917815161'
   jpa:
     hibernate:
       ddl-auto: validate
-server:
-  port: 9997
+#server:
+#  port: 9997
   forward-headers-strategy: framework
 logging:
   level:
