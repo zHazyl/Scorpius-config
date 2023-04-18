@@ -24,3 +24,19 @@ keycloak:
     secret: EarKnJAhU1RdbZLrfICK0n2ZBBK5aOd7
   use-resource-role-mappings: true
   bearer-only: true
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: frontend
+            authorization-grant-type: EarKnJAhU1RdbZLrfICK0n2ZBBK5aOd7
+            scope: openid
+        provider:
+          issuer-uri: http://20.207.203.105:8180/auth/realms/Scorpius
+          user-name-attribute: admin
+      resourceserver:
+        jwt:
+          issuer-uri: http://20.207.203.105:8180/auth/realms/Scorpius
