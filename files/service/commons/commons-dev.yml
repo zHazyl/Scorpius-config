@@ -6,7 +6,7 @@ eureka:
     instance-id: ${spring.application.name}-${random.int}
 #    hostname: localhost
 #    ip-address: 127.0.0.1
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
