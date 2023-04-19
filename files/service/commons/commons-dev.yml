@@ -30,13 +30,6 @@ spring:
     oauth2:
       client:
         registration:
-          keycloak:
-            client-id: frontend
-            authorization-grant-type: EarKnJAhU1RdbZLrfICK0n2ZBBK5aOd7
-            scope: openid
-        provider:
-          issuer-uri: http://20.207.203.105:8180/auth/realms/Scorpius
-          user-name-attribute: admin
-      resourceserver:
-        jwt:
-          issuer-uri: http://20.207.203.105:8180/auth/realms/Scorpius
+          google:
+            clientId: 524622551132-cibb53c91n8d4lcm06icgcg5elqlha9p.apps.googleusercontent.com
+            clientSecret: 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
