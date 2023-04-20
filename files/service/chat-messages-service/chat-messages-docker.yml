@@ -12,7 +12,7 @@ spring:
     username: rabbitmq-user
     password: '{cipher}00c143e772cb49e03cef267ec4da54871c921726ab7a7b07b556048c36547d22a4444b36b4af4e66a07bb563eda5d44c'
   redis:
-    host: 35.219.5.96
+    host: localhost
     port: 6379
 
 logging:
