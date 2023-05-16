@@ -1,12 +1,12 @@
 spring:
   data:
     mongodb:
-      host: ec2-3-85-87-238.compute-1.amazonaws.com
-      port: 27017
-      database: chat_messages_service_database
+      uri: mongodb://ec2-3-85-87-238.compute-1.amazonaws.com:27017/chat_messages_service_database
+#      host: ec2-3-85-87-238.compute-1.amazonaws.com
+#      port: 27017
+#      database: chat_messages_service_database
       username: chat-messages-service-user
-      password: chat-messages-service-root-pass-123
-#      password: '{cipher}5e87c97e4945dc86614e5f7850392680fcd787edd9d4d106438f2ac9879e7358186a9fcc4172771ccae4a1fbf4f6d9d6'
+      password: '{cipher}5e87c97e4945dc86614e5f7850392680fcd787edd9d4d106438f2ac9879e7358186a9fcc4172771ccae4a1fbf4f6d9d6'
   rabbitmq:
     host: ec2-54-147-24-117.compute-1.amazonaws.com
     port: 5672
