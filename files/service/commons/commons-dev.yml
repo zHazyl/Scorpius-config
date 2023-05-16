@@ -24,3 +24,12 @@ keycloak:
     secret: hJNXJ1SUoIdlOgr5LMs1ohgPOJBWzs9Q
   use-resource-role-mappings: true
   bearer-only: true
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 524622551132-cibb53c91n8d4lcm06icgcg5elqlha9p.apps.googleusercontent.com
+            clientSecret: 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
