@@ -17,7 +17,7 @@ eureka:
 
 keycloak:
   realm: scorpius
-  auth-server-url: http://ec2-52-90-145-130.compute-1.amazonaws.com:8180/auth
+  auth-server-url: http://134.122.71.250:8180/auth
   ssl-required: none
   resource: frontend
   credentials:
