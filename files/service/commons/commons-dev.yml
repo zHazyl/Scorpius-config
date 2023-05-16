@@ -11,7 +11,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://ec2-3-80-126-58.compute-1.amazonaws.com:8761/eureka
+      defaultZone: http://10.114.0.2:8761/eureka
     healthcheck:
       enabled: true
 
