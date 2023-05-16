@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://scorpio.cunbs9tv8nhr.us-east-1.rds.amazonaws.com:1433;database=authdb;encrypt=true;loginTimeout=30;
+    url: jdbc:sqlserver://scorpio.cunbs9tv8nhr.us-east-1.rds.amazonaws.com:1433;database=authdb;encrypt=true;trustServerCertificate=true;loginTimeout=30;
     username: 'admin'
     password: 'h0917815161'
 #  jpa:
