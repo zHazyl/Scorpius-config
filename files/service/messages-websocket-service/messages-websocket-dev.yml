@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: localhost
+    host: 172.31.23.6
     username: rabbitmq-user
     password: '{cipher}b8964ed2cc2c7fee4583669ba46f7a1c541a0fd8a56bf50f451eeee39c8d34770715712306cac3b7046426c4d75ce042'
 websocket:

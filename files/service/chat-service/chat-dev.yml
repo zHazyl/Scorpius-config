@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: 127.0.0.1
+    host: 172.31.23.6
     port: 5672
     username: rabbitmq-user
     password: '{cipher}3adfb46bde0f96695af1853733d8774f0012b158e34b64a1254660f509c65e1b666020c71b435e7a78a36d31c2845cbf'
@@ -8,6 +8,9 @@ spring:
     url: jdbc:sqlserver://scorpio.cunbs9tv8nhr.us-east-1.rds.amazonaws.com:1433;database=frienddb;encrypt=true;trustServerCertificate=false;loginTimeout=30;
     username: 'admin'
     password: 'h0917815161'
+  redis:
+    host: 172.31.30.239
+    port: 6379
 #  jpa:
 #    hibernate:
 #      ddl-auto: validate

@@ -6,7 +6,7 @@ spring:
           enabled: true
 server:
 #  address: 20.207.203.105
-  port: 8090
+  port: 8080
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
@@ -17,7 +17,7 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://20.207.203.105:8761/eureka
+      defaultZone: http://172.31.19.8:8761/eureka
     register-with-eureka: false
     fetch-registry: true
     enabled: true
