@@ -11,13 +11,13 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://172.31.19.8:8761/eureka
+      defaultZone: http://ec2-3-80-126-58.compute-1.amazonaws.com:8761/eureka
     healthcheck:
       enabled: true
 
 keycloak:
   realm: scorpius
-  auth-server-url: http://172.31.31.148:8180/auth
+  auth-server-url: http://ec2-52-90-145-130.compute-1.amazonaws.com:8180/auth
   ssl-required: none
   resource: frontend
   credentials:
