@@ -11,4 +11,4 @@ websocket:
       systemLogin: rabbitmq-user
       systemPasscode: '{cipher}d26f57a1f78d64354a73bfe8775acc4e754f0ffc48ad25eceebc821bedae00cfc31b5e82ab6f13003cf7c94f0df42e45'
       relayPort: 61613
-      relayHost: 127.0.0.1
+      relayHost: ec2-54-147-24-117.compute-1.amazonaws.com
