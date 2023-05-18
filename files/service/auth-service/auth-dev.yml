@@ -12,8 +12,7 @@ spring:
     username: rabbitmq-user
     password: '{cipher}3adfb46bde0f96695af1853733d8774f0012b158e34b64a1254660f509c65e1b666020c71b435e7a78a36d31c2845cbf'
   redis:
-    host: ec2-54-173-20-176.compute-1.amazonaws.com
-    password: h0917815161
+    host: 127.0.0.1
     port: 6379
 
 logging:
